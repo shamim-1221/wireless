@@ -1,4 +1,13 @@
   iwconfig
 airmon-ng start wlan0 (yaha pr wlan0 wo purane wale output ka nam hai )
 
-Airodump-ng -write
+ airodump-ng -write capture wlan0
+
+The screen will display a list of WI-FI networks as shown in figure
+
+ 5. Use the following command to capture a 4-way handshake by using airmon-ng to monitor traffic on the target network using the channel and BSSID values "airodump-ng -c 3--bssid 9C:5C:XX:XX:XX:XX -w.wlan0" where "-c 3" is used to specify the channel number 3 
+
+6. Now, wait to capture the handshake packet. Once you have capture a packet, you will see the output similar to figure
+
+. You will see a capture .cap file in your /root location which is a default location 8. Now, run this capture file against a wordlist to crack the WPA ke
+
