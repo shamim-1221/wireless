@@ -1,0 +1,4 @@
+  iwconfig
+airmon-ng start wlan0 (yaha pr wlan0 wo purane wale output ka nam hai )
+
+Airodump-ng -write
